@@ -1,6 +1,6 @@
 import React from "react";
 import styled from 'styled-components';
-import { Card } from 'semantic-ui-react';
+import { Card, CardImg, CardText, CardBody, CardTitle, CardSubtitle, Button } from 'reactstrap';
 
 const StyledCard = styled(Card)`
   font-size: 1.5 rem;
@@ -17,7 +17,7 @@ export default function CharacterCard(props) {
   <StyledCard>
     <img src={props.image} />
     <Title>{props.name}</Title>
-    <p style={{color: 'silver'}}>{props.status}</p>
+    <CardSubtitle><p style={{color: 'silver'}}>{props.status}</p></CardSubtitle>
     Species: {props.species}<br/>
     Location: {props.location.name}<br/>
     Origin: {props.origin.name}

@@ -5,6 +5,7 @@ import WelcomePage from "./components/WelcomePage.js";
 import CharacterList from './components/CharacterList';
 import LocationsList from './components/LocationsList';
 import EpisodesList from './components/EpisodeList';
+import SearchForm from './components/SearchForm';
 import { Route } from 'react-router-dom';
 
 
@@ -17,6 +18,7 @@ export default function App() {
       <Route exact path='/characters' component={CharacterList}/>
       <Route exact path='/locations' component={LocationsList}/>
       <Route exact path='/episodes' component={EpisodesList}/>
+      <Route Exact path='/search' component={SearchForm}/>
     </main>
   );
 }

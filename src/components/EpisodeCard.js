@@ -1,6 +1,6 @@
 import React from "react";
 import styled from 'styled-components';
-import { Card } from 'semantic-ui-react';
+import { Card } from 'reactstrap';
 
 const StyledCard = styled(Card) `
     font-size: 1.5rem;
