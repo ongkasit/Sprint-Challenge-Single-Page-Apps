@@ -27,7 +27,7 @@ Demonstrate your understanding of this Sprint's concepts by answering the follow
 
 - [ ]  Explain benefit(s) using `client-side routing`?
 
-> Answer:
+> Answer: Client-side routing loads all of the data from the server all at once during the first request. As a result, navigating between different pages within the app becomes very fast. 
 
 ## Project Set Up
 
